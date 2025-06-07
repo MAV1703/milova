@@ -18,7 +18,7 @@ a:visited{
 .card {
     margin: 5px;
     padding: 5px;
-    width: 500px;
+    width: max-content;
     padding-bottom: 30px;
     border: 1px solid rgb(219, 216, 216);
     border-radius: 5px;
