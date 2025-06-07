@@ -17,7 +17,7 @@ a:visited{
 }
 
 .card {
-    margin: 5px;
+    margin: 0
     padding: 5px;
     width: 500;
     padding-bottom: 30px;
@@ -28,7 +28,7 @@ a:visited{
 
 .card a {
     margin-top: 0px;
-    margin-left: 450px;
+    margin-left: 490px;
 }
 
 .card .picture{
@@ -38,7 +38,7 @@ a:visited{
 
 .card h3, h4 {
     font-size: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
     color: rgb(8, 8, 63);
 }
 
