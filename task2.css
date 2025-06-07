@@ -6,7 +6,9 @@
     box-sizing: border-box;
 }
 
-
+h5 {
+    margin-left: 15px;
+}
 a {
     color: rgb(22, 22, 134);
 }
@@ -17,7 +19,7 @@ a:visited{
 }
 
 .card {
-    margin-left: 25px;
+    margin-left: 50px;
     padding: 5px;
     padding-bottom: 30px;
     border: 1px solid rgb(219, 216, 216);
