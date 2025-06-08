@@ -66,7 +66,7 @@ a:visited{
 }
 
 .card .old-price {
-    margin-left: 20px;
+    margin-left: 10px;
     color: rgb(187, 67, 12);
     font-size: 16px;
     text-decoration:line-through;
