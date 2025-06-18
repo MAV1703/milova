@@ -162,7 +162,7 @@ footer {
 .lists {
     display: flex;
     gap: 50px;
-    margin: 100px;
+    margin: 20px 400px;
 }
 
 .list {
