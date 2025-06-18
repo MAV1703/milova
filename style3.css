@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 *{
-    margin: 20px;
+    margin: 20px 70px 20px 70px;
     padding: 0;
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
@@ -63,12 +63,12 @@
 
 .hero{
     display: flex;
-    justify-content: space-between;
+    gap: 50px;
     margin: 10px 10px;
 }
 
 .hero-caption{
-    margin: 70px 50px;
+    margin: 70px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -162,7 +162,7 @@ footer {
 .lists {
     display: flex;
     gap: 50px;
-    margin: 350px;
+    margin: 100px;
 }
 
 .list {
