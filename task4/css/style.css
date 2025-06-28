@@ -17,7 +17,7 @@
 
 .nav-link{
     color: black;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .header-btn, .events-btn, .contact-btn {
@@ -54,7 +54,6 @@
 .input{
     color: white;
     padding: 10px;
-    font-size: 18px;
     
 }
 
@@ -63,7 +62,6 @@
     color: white;
     border: none;
     font-weight: bold;
-    font-size: 1.3rem;
 }
 
 .form-btn {
