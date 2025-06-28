@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 20px 70px 20px 70px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.return{
+    font-size: 10px;
+    background-color: white;
+}
+.page-start{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background: white;
+    top: 0px;
+    width: 100%;
+}
+
+.header-site-name{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.header-site-name .site-name{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.header-links{
+    display: flex;
+    align-items: center;
+}
+
+.header-links a {
+    text-decoration: none;
+    margin: 15px;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.header-btn{
+    width: 75px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.header-btn:hover {
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    gap: 50px;
+    margin: 10px 10px;
+}
+
+.hero-caption{
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.hero-caption h1{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.hero-caption #subh{
+    color: gray;
+    font-size: 16px;
+}
+
+.hero-caption h2{
+    color: black;
+    font-size: 18px;
+}
+
+.hero-caption h2{
+    color: black;
+    font-size: 18px;
+}
+
+.hero-caption .description {
+    color: gray;
+    font-size: 14px;
+}
+
+.hero-caption button {
+    width: 300px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    margin: 0 auto;
+    display: flex;
+    padding: 5px 110px;
+}
+
+.hero-caption button:hover{
+    cursor: pointer;
+}
+
+.hero-caption .details {
+    color: gray;
+    font-size: 13px;
+}
+
+.related{
+    margin: 100px 10px 10px;
+
+}
+
+.cards {
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card h6{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.card p{
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.site-name-networks {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.site-name {
+    margin-top: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists {
+    display: flex;
+    gap: 50px;
+    margin: 300px;
+}
+
+.list {
+    font-size: 13px;
+   
+}
+
+.list a{
+    font-size: 13px;
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    color: gray;
+    line-height: 2;
+}
+

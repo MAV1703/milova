@@ -1,0 +1,109 @@
+*{
+    margin: 0 20px 0 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+h5 {
+    margin-left: 15px;
+}
+a {
+    color: rgb(22, 22, 134);
+}
+
+
+a:visited{
+    color: rgb(89, 31, 107);
+}
+
+.card {
+    margin-left: 15px;
+    padding: 5px;
+    padding-bottom: 30px;
+    border: 1px solid rgb(219, 216, 216);
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+    max-width: 500px;
+    width: 100% ;
+}
+
+.card a {
+    margin-top: 0px;
+    margin-left: 95%;
+}
+
+.card .picture{
+    margin-left: 40px;
+    width: 150px;
+}
+
+.card h3, h4 {
+    font-size: 15px;
+    margin-bottom: 3px;
+    color: rgb(8, 8, 63);
+}
+
+.card table th {
+    padding: 0px;
+    text-align: left;
+    font-weight: bold;
+    
+}
+
+.card table td {
+    color: gray;
+    font-weight: bold;
+    
+}
+
+.card .price {
+    margin-left: 80px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.card .old-price {
+    margin-left: 10px;
+    color: rgb(187, 67, 12);
+    font-size: 16px;
+    text-decoration:line-through;
+}
+
+.card input {
+    margin: 5px 15px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.card button{
+    margin: 5px;
+    width: 200px;
+    height: 35px;
+    border-radius: 5px;
+    color:white;
+    font-size: 15px;
+    background: linear-gradient(to right, rgb(12, 122, 12), rgb(54, 54, 170));
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.card button:hover {
+
+    transform: scale(1.1);
+}
+
+.card button:active {
+
+    transform: scale(0.9);
+}
+
+.card .bye-now{
+  
+    background: linear-gradient(to right, rgb(236, 182, 3), rgb(212, 15, 31));
+
+}
+
