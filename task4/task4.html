@@ -33,9 +33,9 @@
         <img class="m-5" src="images/lang-en.jpg" width="50px">
         </nav>
         </div>
-        <div class="header-picture pt-5">
+        <div class="header-picture">
          <div class="container" id="container-header">
-            <form class="row"> 
+            <form class="row m-4"> 
                 <div class="col-3 bg-info"> 
                     <label class = "input" for = "hotel">Hotel or destination</label>
                     <br>
@@ -97,63 +97,75 @@
                 Our Events
             </h2>
 
-            <div class="d-flex justify-content-center">
-
-               <div class="card m-5" style="width: 18rem;">
+            <div class="row row-cols-1 row-cols-md-3 m-3">
+                <div class="col mb-4">
+                    <div class="card">
                     <img src="images/card-1.png" class="card-img-top" alt="...">
-                    <div class="card-img-overlay" style="width: 4rem; height: 4rem; background: white; border-radius: 0; font-size: 1rem; font-weight: bold;">
-                        <p>24
-                            <br>
-                        Oct
-                    </div>
+                        <div class="card-img-overlay" style="width:25%; height: 25%; background: white; border-radius: 0; font-weight: bold">
+                            <p>
+                                24
+                                <br>
+                                oct
+                            </p>
+                        </div>
                     <div class="card-body">
                         <h5 class="card-title text-center">Cocktails & Bites</h5>
-                        <p class="card-text text-uppercase">Riverside Valencia</p>
+                        <p class="card-text text-center text-uppercase">Riverside Valencia</p>
                     </div>
-               </div>
-
-               <div class="card m-5" style="width: 18rem;">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
                     <img src="images/card-2.png" class="card-img-top" alt="...">
-                    <div class="card-img-overlay" style="width: 4rem; height: 4rem; background: white; border-radius: 0; font-size: 1rem; font-weight: bold;">
-                        <p>25
-                            <br>
-                        Oct
-                        </p>
-                    </div>
+                        <div class="card-img-overlay" style="width:25%; height: 25%; background: white; border-radius: 0; font-weight: bold;">
+                                <p>
+                                25
+                                 <br>
+                                oct
+                                </p>
+                            </div>
                     <div class="card-body">
                         <h5 class="card-title text-center">Weekend Brunch</h5>
-                        <p class="card-text text-uppercase">Riverside Malagia</p>
+                        <p class="card-text text-center text-uppercase">Riverside Malagia</p>
                     </div>
-               </div>
-
-               <div class="card m-5" style="width: 18rem;">
+                    </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card">
                     <img src="images/card-2.png" class="card-img-top" alt="...">
-                    <div class="card-img-overlay" style="width: 4rem; height: 4rem; background: white; border-radius: 0; font-size: 1rem; font-weight: bold;">
-                        <p>26
-                            <br>
-                        Oct
-                    </div>
+                        <div class="card-img-overlay" style="width:25%; height: 25%; background: white; border-radius: 0; font-weight: bold">
+                                <p>
+                                26
+                                <br>
+                                oct
+                                </p>
+                            </div>
                     <div class="card-body">
                         <h5 class="card-title text-center">Piano Night</h5>
-                        <p class="card-text text-uppercase">Riverside Atocha</p>
+                        <p class="card-text text-center text-uppercase">Riverside Atocha</p>
                     </div>
-               </div>
-        </div> 
+                    </div>
+                </div>
+                </div>
+                </div>
 
-        <div class="text-center">
-        <button type="button" class="events-btn">Book</button>
-        </div>
+                <div class="text-center">
+                    <button class="events-btn">BOOK</button>
+                </div>
 
+            </div>
+
+               
         <div class="text-center">
             <h2 class="m-5" id="contact">Contact Us</h2>
             <div class="container">
-                <input type="text" name="name" class="form-field col-5 m-5" placeholder="name*" required>
-                <input type="text" name="surname" class="form-field col m-5" placeholder="surname*" required>
-                <input type="text" name="city" class="form-field col-5 m-5" placeholder="city">
-                <input type="text" name="country" class="form-field col m-5" placeholder="country">
-                <input type="tel" name="phone" class="form-field col-5 m-5" placeholder="phone">
-                <input type="email" name="email" class="form-field col m-5" placeholder="email*" required>
-                <textarea class = "col-8" placeholder="message*" required></textarea>
+                <input type="text" name="name" class="form-field col-4 m-5" placeholder="name*" required>
+                <input type="text" name="surname" class="form-field col-4 m-5" placeholder="surname*" required>
+                <input type="text" name="city" class="form-field col-4 m-5" placeholder="city">
+                <input type="text" name="country" class="form-field col-4 m-5" placeholder="country">
+                <input type="tel" name="phone" class="form-field col-4 m-5" placeholder="phone">
+                <input type="email" name="email" class="form-field col-4 m-5" placeholder="email*" required>
+                <textarea class = "col-8" rows="10" placeholder="message*" required></textarea>
             </div>
 
             <div class="text-center m-5">

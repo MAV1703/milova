@@ -21,7 +21,6 @@
 }
 
 .header-btn, .events-btn, .contact-btn {
-    width: 10rem;
     padding: 0.7rem;
     margin: 5%;
     background: rgb(33, 48, 136);
@@ -45,12 +44,12 @@
     position: relative;
 }
 
+
 #container-header{
     position: absolute;
     bottom: 10%;
     left: 10%;
 }
-
 
 .input{
     color: white;
@@ -73,8 +72,7 @@
     color: white;
     font-weight: bold;
     text-align: center;
-    padding-left: 30%;
-    font-size: 1.4rem;
+    padding-block-end: 20%;
     line-height: 4;
 }
 
