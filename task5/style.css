@@ -1,0 +1,37 @@
+body{
+    background: black;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.blocks {
+    display: flex;
+    margin: 5%;
+
+}
+
+.big-image{
+    margin: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.small-images{
+    text-align: center;
+    height: 100vh;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image-btn {
+    all:unset;
+    filter: grayscale(1);
+}
+
+.image-btn:hover{
+    cursor: pointer;
+    filter: grayscale(0);
+}
