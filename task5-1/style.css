@@ -16,22 +16,23 @@ button:hover {
 
 .menu-group {
     display: flex;
+    gap: -100;
 }
 
 .menu{
     display: flex;
     flex-direction: column;
+    gap: 50px;
     padding-left: 100px;
     border-right: 1px solid gray;
     height: 100vh;
     width: 200px;
-    gap: 30px;
+    gap: 100px;
     text-align: left;
     box-shadow: 3px 3px 5px gray;
     position: relative;
-    line-height: 4;
     margin-top: 0;
-    margin-left: -200%;
+    margin-left: -100%;
     transition: 0.7s ease-in-out;
     background: white;
     
@@ -39,7 +40,7 @@ button:hover {
 
 .menu-opened{
 
- margin-left: -40%;
+margin-left: 0%;
 }
 
 #close-btn{
