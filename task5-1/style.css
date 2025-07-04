@@ -44,14 +44,14 @@ button:hover {
 
 .menu-opened{
 
-margin-left: 5%;
+margin-left: 0;
 }
 
 #close-btn{
 
     margin: 100px;
     position: absolute;
-    right: 30%;
+    right: 10%;
     top: 70%;
 
 }
