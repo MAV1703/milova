@@ -8,6 +8,8 @@ button{
     width: max-content;
     margin: 50px;
     padding: 10px 30px;
+    position: absolute;
+
 }
 
 button:hover {
@@ -22,7 +24,6 @@ button:hover {
 .menu{
     display: flex;
     flex-direction: column;
-    gap: 50px;
     padding-left: 100px;
     border-right: 1px solid gray;
     height: 100vh;
@@ -34,13 +35,16 @@ button:hover {
     margin-top: 0;
     margin-left: -100%;
     transition: 0.7s ease-in-out;
+    line-height: 2.5;
     background: white;
     
 }
 
+
+
 .menu-opened{
 
-margin-left: 0%;
+margin-left: 5%;
 }
 
 #close-btn{
