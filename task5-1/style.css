@@ -1,0 +1,58 @@
+button{
+    color: white;
+    background: darkcyan;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: large;
+    width: max-content;
+    margin: 50px;
+    padding: 10px 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.menu-group {
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    border-right: 1px solid gray;
+    height: 100vh;
+    width: 200px;
+    gap: 30px;
+    text-align: left;
+    box-shadow: 3px 3px 5px gray;
+    position: relative;
+    line-height: 4;
+    margin-top: 0;
+    margin-left: -200%;
+    transition: 0.7s ease-in-out;
+    background: white;
+    
+}
+
+.menu-opened{
+
+ margin-left: -40%;
+}
+
+#close-btn{
+
+    margin: 100px;
+    position: absolute;
+    right: 30%;
+    top: 70%;
+
+}
+
+.menu a{
+    color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
